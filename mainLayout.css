@@ -1,0 +1,103 @@
+/* Copyright (c) 2017 MIT 6.813/6.831 course staff, all rights reserved.
+ * Redistribution of original or derived work requires permission of course staff.
+ */
+
+/* REMOVE ME - dashed lines and height for debugging */
+#mainColumn {
+  outline: 1px dashed orange;
+  height: 1000px;
+  padding-top: 300px;
+  padding-left: 75px;
+
+}
+
+/* Your css code here! */
+#firstColumn{
+  padding: 10px;
+  height: 1000px;
+  outline: 1px dashed orange;
+}
+
+#lastColumn{
+  padding: 10px;
+  height: 1000px;
+  outline: 1px dashed orange;
+}
+
+#title{
+  padding-top: 300px;
+  color: red;
+  font-weight: bold;
+}
+
+#newGameBTN{
+  font-weight: bold;
+}
+#newGameBTN:hover{
+  color: red;
+}
+
+#Move{
+  padding-top: 270px;
+  display: inline-block;
+  text-align: right;
+  font-size: 30px;
+}
+#playerMove{
+  width: 50px;
+}
+
+table{
+  border: 5px solid black;
+  width: 320px;
+  height: 320px;
+
+
+}
+
+td{
+  padding: 15px;
+  border: 1px solid black;
+
+}
+
+#upArrow{
+  padding: 20px 90px
+}
+#upButton:hover{
+  color: red;
+}
+
+#lefttArrow{
+  padding-left: 20px;
+  display: inline-block;
+}
+#leftButton:hover{
+  color: red;
+}
+
+#rightArrow{
+  padding-left: 50px;
+  display: inline-block;
+}
+#rightButton:hover{
+  color: red;
+}
+
+#downArrow{
+  padding: 20px 90px
+}
+#downButton:hover{
+  color: red;
+}
+
+#Crush{
+  padding-left: 70px;
+}
+
+#crushButton{
+  font-weight: bold;
+}
+#crushButton:hover{
+  color: red;
+}
